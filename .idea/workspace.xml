@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="767bee6a-a1c0-4cc2-8354-1c37e3c3ac54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatademo/BigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatademo/BigDataCollect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatademo/BigDataPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingBigDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingByMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingMappingNumberFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingMappingStringFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingMappingToLong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingPartitionBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataPojo.java" afterDir="false" />
+    <list default="true" id="767bee6a-a1c0-4cc2-8354-1c37e3c3ac54" name="Changes" comment="new files with changes created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingPartitionByCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingPartitionBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abate/bigdatadomainmodel/BigDataGroupingPartitionBy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,34 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.abate.bigdatadomainmodel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BigDataGroupingBigDecimal">
+  <component name="RunManager" selected="Application.BigDataGroupingPartitionByCount">
     <configuration name="BigDataGroupingBigDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.abate.bigdatadomainmodel.BigDataGroupingBigDecimal" />
-      <module name="advancestream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.abate.bigdatadomainmodel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BigDataGroupingByMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.abate.bigdatadomainmodel.BigDataGroupingByMap" />
       <module name="advancestream" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigDataGroupingMappingToLong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.abate.bigdatadomainmodel.BigDataGroupingMappingToLong" />
+    <configuration name="BigDataGroupingPartitionBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.abate.bigdatadomainmodel.BigDataGroupingPartitionBy" />
+      <module name="advancestream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.abate.bigdatadomainmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigDataGroupingPartitionByCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.abate.bigdatadomainmodel.BigDataGroupingPartitionByCount" />
       <module name="advancestream" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigDataGroupingPartitionByCount" />
+        <item itemvalue="Application.BigDataGroupingPartitionBy" />
         <item itemvalue="Application.BigDataGroupingBigDecimal" />
         <item itemvalue="Application.BigDataGroupingMappingNumberFormat" />
         <item itemvalue="Application.BigDataGroupingMappingStringFormat" />
-        <item itemvalue="Application.BigDataGroupingMappingToLong" />
-        <item itemvalue="Application.BigDataGroupingByMap" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +137,18 @@
       <option name="presentableId" value="Default" />
       <updated>1706738612567</updated>
     </task>
+    <task id="LOCAL-00001" summary="new files with changes created">
+      <created>1706813268335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706813268335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new files with changes created" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files with changes created" />
   </component>
 </project>
